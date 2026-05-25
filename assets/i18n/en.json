@@ -117,7 +117,12 @@
     "INTRO": "Want to work with me? Drop me a line.",
     "CONTACTS_ARIA": "Contact channels",
     "SOCIAL_ARIA": "Social networks",
-    "EMAIL_ARIA_PREFIX": "Send email to"
+    "EMAIL_ARIA_PREFIX": "Send email to",
+    "QUALITY_ARIA": "Lighthouse quality scores",
+    "QUALITY_PERFORMANCE": "Performance",
+    "QUALITY_ACCESSIBILITY": "Accessibility",
+    "QUALITY_PRACTICES": "Best Practices",
+    "QUALITY_SEO": "SEO"
   },
   "CV": {
     "DOWNLOAD": "Download CV",
@@ -135,6 +140,7 @@
     "DEMO_TABLE_SOURCE": "Data provided by PokéAPI",
     "DEMO_TABLE_EMPTY": "No data to display.",
     "DEMO_TABLE_NAME_PLACEHOLDER": "Exact name (e.g. pikachu)…",
+    "DEMO_TABLE_SEARCH_LABEL": "Search Pokémon by name",
     "DEMO_TABLE_TYPE_ALL": "All types",
     "DEMO_TABLE_ERROR": "Failed to load data. Please try again.",
     "DEMO_TABLE_COL_ID": "#",

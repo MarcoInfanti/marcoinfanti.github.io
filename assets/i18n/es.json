@@ -117,7 +117,12 @@
     "INTRO": "¿Quieres trabajar conmigo? Escríbeme.",
     "CONTACTS_ARIA": "Medios de contacto",
     "SOCIAL_ARIA": "Redes sociales",
-    "EMAIL_ARIA_PREFIX": "Enviar email a"
+    "EMAIL_ARIA_PREFIX": "Enviar email a",
+    "QUALITY_ARIA": "Puntuaciones de calidad Lighthouse",
+    "QUALITY_PERFORMANCE": "Rendimiento",
+    "QUALITY_ACCESSIBILITY": "Accesibilidad",
+    "QUALITY_PRACTICES": "Buenas prácticas",
+    "QUALITY_SEO": "SEO"
   },
   "CV": {
     "DOWNLOAD": "Descargar CV",
@@ -135,6 +140,7 @@
     "DEMO_TABLE_SOURCE": "Datos proporcionados por PokéAPI",
     "DEMO_TABLE_EMPTY": "Sin datos que mostrar.",
     "DEMO_TABLE_NAME_PLACEHOLDER": "Nombre exacto (ej. pikachu)…",
+    "DEMO_TABLE_SEARCH_LABEL": "Buscar Pokémon por nombre",
     "DEMO_TABLE_TYPE_ALL": "Todos los tipos",
     "DEMO_TABLE_ERROR": "Error al cargar los datos. Inténtalo de nuevo.",
     "DEMO_TABLE_COL_ID": "#",
