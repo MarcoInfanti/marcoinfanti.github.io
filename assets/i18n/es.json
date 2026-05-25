@@ -157,7 +157,10 @@
     "DEMO_TABLE_DRAWER_STAT_DEFENSE": "Defensa",
     "DEMO_TABLE_DRAWER_STAT_SPECIAL_ATTACK": "At. Especial",
     "DEMO_TABLE_DRAWER_STAT_SPECIAL_DEFENSE": "Def. Especial",
-    "DEMO_TABLE_DRAWER_STAT_SPEED": "Velocidad"
+    "DEMO_TABLE_DRAWER_STAT_SPEED": "Velocidad",
+    "DEMO_TABLE_PAGINATION_ARIA": "Paginación",
+    "DEMO_TABLE_PREV_ARIA": "Página anterior",
+    "DEMO_TABLE_NEXT_ARIA": "Página siguiente"
   },
   "PERSONAL": {
     "TITLE": "Ingeniero en Informática - U.C.A.B",

@@ -157,7 +157,10 @@
     "DEMO_TABLE_DRAWER_STAT_DEFENSE": "Defense",
     "DEMO_TABLE_DRAWER_STAT_SPECIAL_ATTACK": "Sp. Attack",
     "DEMO_TABLE_DRAWER_STAT_SPECIAL_DEFENSE": "Sp. Defense",
-    "DEMO_TABLE_DRAWER_STAT_SPEED": "Speed"
+    "DEMO_TABLE_DRAWER_STAT_SPEED": "Speed",
+    "DEMO_TABLE_PAGINATION_ARIA": "Pagination",
+    "DEMO_TABLE_PREV_ARIA": "Previous page",
+    "DEMO_TABLE_NEXT_ARIA": "Next page"
   },
   "PERSONAL": {
     "TITLE": "Computer Engineer - U.C.A.B",
