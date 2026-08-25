@@ -147,6 +147,7 @@
     "DEMO_TABLE_SEARCH_CLEAR_ARIA": "Limpiar búsqueda",
     "DEMO_TABLE_TYPE_ALL": "Todos los tipos",
     "DEMO_TABLE_TYPE_CLEAR_ARIA": "Limpiar filtro de tipo",
+    "DEMO_TABLE_TYPE_EMPTY": "Sin coincidencias",
     "DEMO_TABLE_ERROR": "Error al cargar los datos. Inténtalo de nuevo.",
     "DEMO_TABLE_COL_ID": "#",
     "DEMO_TABLE_COL_NAME": "Nombre",

@@ -147,6 +147,7 @@
     "DEMO_TABLE_SEARCH_CLEAR_ARIA": "Clear search",
     "DEMO_TABLE_TYPE_ALL": "All types",
     "DEMO_TABLE_TYPE_CLEAR_ARIA": "Clear type filter",
+    "DEMO_TABLE_TYPE_EMPTY": "No matches",
     "DEMO_TABLE_ERROR": "Failed to load data. Please try again.",
     "DEMO_TABLE_COL_ID": "#",
     "DEMO_TABLE_COL_NAME": "Name",
