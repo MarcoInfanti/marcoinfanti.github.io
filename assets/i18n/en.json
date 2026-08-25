@@ -41,25 +41,31 @@
       "ROLE": "Front-End Developer",
       "COMPANY": "Mnemo Evolution & Integration Services",
       "PERIOD": "May 2023 - Aug 2026",
-      "DESCRIPTION": "Web application development with Angular and RESTful services."
+      "DESCRIPTION_0": "Front-end development of an end-to-end cybersecurity management platform (threat detection, investigation and response across on-premise and multicloud environments), using Angular and TypeScript.",
+      "DESCRIPTION_1": "Implementation of dashboards, KPIs and real-time views for monitoring cyber incidents, threat intelligence and vulnerability management, consuming RESTful services.",
+      "DESCRIPTION_2": "Development of reusable components and interfaces for analysing large volumes of security data and visualising risk on critical assets."
     },
     "1": {
       "ROLE": "Front-End Developer",
       "COMPANY": "The Next Flow",
       "PERIOD": "January 2023 - April 2023",
-      "DESCRIPTION": "Angular interface development and RESTful service integration."
+      "DESCRIPTION_0": "Front-end development of a travel industry web platform using Angular and TypeScript.",
+      "DESCRIPTION_1": "Implementation of responsive views and reusable components, integrating RESTful services.",
+      "DESCRIPTION_2": "Markup of interfaces focused on user experience and user navigation."
     },
     "2": {
       "ROLE": "Development Analyst",
       "COMPANY": "UCAB IT Department",
       "PERIOD": "March 2022 - November 2022",
-      "DESCRIPTION": "Front-end development with Angular and integration with RESTful services."
+      "DESCRIPTION": "Development and maintenance of the university's internal applications."
     },
     "3": {
       "ROLE": "Front-End Developer",
       "COMPANY": "World Cloud Services LLC",
       "PERIOD": "May 2021 - March 2022",
-      "DESCRIPTION": "Web application development with Angular and RESTful services."
+      "DESCRIPTION_0": "Front-end development of a web application for the banking sector using Angular and TypeScript.",
+      "DESCRIPTION_1": "Implementation of views, forms and reusable components, integrating RESTful services.",
+      "DESCRIPTION_2": "Development of interfaces focused on usability and data integrity."
     },
     "4": {
       "ROLE": "Database Analyst",

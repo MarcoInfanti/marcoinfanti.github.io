@@ -41,25 +41,31 @@
       "ROLE": "Desarrollador Front-End",
       "COMPANY": "Mnemo Evolution & Integration Services",
       "PERIOD": "Mayo 2023 - Agosto 2026",
-      "DESCRIPTION": "Desarrollo de aplicaciones web con Angular y servicios RESTful."
+      "DESCRIPTION_0": "Desarrollo del front-end de una plataforma de gestión integral de ciberseguridad (detección, investigación y respuesta a amenazas en entornos on-premise y multicloud), con Angular y TypeScript.",
+      "DESCRIPTION_1": "Implementación de dashboards, KPIs y vistas en tiempo real para la monitorización de ciberincidentes, inteligencia de amenazas y gestión de vulnerabilidades, consumiendo servicios RESTful.",
+      "DESCRIPTION_2": "Desarrollo de componentes reutilizables e interfaces para el análisis de grandes volúmenes de datos de seguridad y la visualización del riesgo sobre activos críticos."
     },
     "1": {
       "ROLE": "Desarrollador Front-End",
       "COMPANY": "The Next Flow",
       "PERIOD": "Enero 2023 - Abril 2023",
-      "DESCRIPTION": "Desarrollo de interfaces con Angular y consumo de servicios RESTful."
+      "DESCRIPTION_0": "Desarrollo del front-end de una plataforma web del sector viajes con Angular y TypeScript.",
+      "DESCRIPTION_1": "Implementación de vistas responsive y componentes reutilizables, integrando servicios RESTful.",
+      "DESCRIPTION_2": "Maquetación de interfaces orientadas a la experiencia de usuario y la navegación del usuario."
     },
     "2": {
       "ROLE": "Analista de Desarrollo",
       "COMPANY": "Dir. Tecnología e Información UCAB",
       "PERIOD": "Marzo 2022 - Noviembre 2022",
-      "DESCRIPTION": "Desarrollo front-end con Angular e integración con servicios RESTful."
+      "DESCRIPTION": "Desarrollo y mantenimiento de aplicaciones internas de la universidad."
     },
     "3": {
       "ROLE": "Desarrollador Front-End",
       "COMPANY": "World Cloud Services LLC",
       "PERIOD": "Mayo 2021 - Marzo 2022",
-      "DESCRIPTION": "Desarrollo de aplicaciones web con Angular y servicios RESTful."
+      "DESCRIPTION_0": "Desarrollo del front-end de una aplicación web para el sector bancario con Angular y TypeScript.",
+      "DESCRIPTION_1": "Implementación de vistas, formularios y componentes reutilizables, integrando servicios RESTful.",
+      "DESCRIPTION_2": "Desarrollo de interfaces orientadas a la usabilidad y la integridad de los datos."
     },
     "4": {
       "ROLE": "Analista de Base de Datos",
