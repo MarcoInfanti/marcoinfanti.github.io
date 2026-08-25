@@ -26,7 +26,6 @@
     "INFO_NATIONALITY": "Nacionalidad",
     "INFO_EMAIL": "Email",
     "INFO_LOCATION": "Ubicación",
-    "VALUE_NATIONALITY": "Español",
     "LANG_SPANISH": "Español",
     "LANG_ENGLISH": "Inglés",
     "LANG_GERMAN": "Alemán",
@@ -162,6 +161,9 @@
     "DEMO_TABLE_GOTO": "Ir a página:",
     "DEMO_TABLE_DRAWER_CLOSE_ARIA": "Cerrar detalle del Pokémon",
     "DEMO_TABLE_DRAWER_HEADING": "Detalle del Pokémon",
+    "DEMO_TABLE_DRAWER_POKEDEX": "Descripción de la Pokédex",
+    "DEMO_TABLE_DRAWER_LEGENDARY": "Legendario",
+    "DEMO_TABLE_DRAWER_MYTHICAL": "Singular",
     "DEMO_TABLE_DRAWER_COL_STATS": "Estadísticas base",
     "DEMO_TABLE_DRAWER_COL_ABILITIES": "Habilidades",
     "DEMO_TABLE_DRAWER_HIDDEN": "Oculta",
@@ -189,8 +191,13 @@
     "STATS_TITLE": "Estadísticas base",
     "STATS_CAPTION": "Cada fila enfrenta a los dos Pokémon en una estadística.",
     "STATS_ARIA": "Comparación de estadísticas base entre los dos Pokémon seleccionados",
+    "GENERATIONS_TITLE": "Pokémon por generación",
+    "GENERATIONS_CAPTION": "Especies introducidas en cada generación. Las entregas recientes son notablemente más pequeñas que las primeras.",
+    "GENERATIONS_ARIA": "Número de especies de Pokémon introducidas en cada generación",
     "TABLE_VIEW": "Ver los datos como tabla",
-    "COL_STAT": "Estadística"
+    "COL_STAT": "Estadística",
+    "COL_GENERATION": "Generación",
+    "COL_COUNT": "Especies"
   },
   "PERSONAL": {
     "TITLE": "Ingeniero en Informática - U.C.A.B",

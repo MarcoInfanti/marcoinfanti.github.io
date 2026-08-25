@@ -26,7 +26,6 @@
     "INFO_NATIONALITY": "Nationality",
     "INFO_EMAIL": "Email",
     "INFO_LOCATION": "Location",
-    "VALUE_NATIONALITY": "Spanish",
     "LANG_SPANISH": "Spanish",
     "LANG_ENGLISH": "English",
     "LANG_GERMAN": "German",
@@ -162,6 +161,9 @@
     "DEMO_TABLE_GOTO": "Go to page:",
     "DEMO_TABLE_DRAWER_CLOSE_ARIA": "Close Pokémon detail",
     "DEMO_TABLE_DRAWER_HEADING": "Pokémon detail",
+    "DEMO_TABLE_DRAWER_POKEDEX": "Pokédex entry",
+    "DEMO_TABLE_DRAWER_LEGENDARY": "Legendary",
+    "DEMO_TABLE_DRAWER_MYTHICAL": "Mythical",
     "DEMO_TABLE_DRAWER_COL_STATS": "Base stats",
     "DEMO_TABLE_DRAWER_COL_ABILITIES": "Abilities",
     "DEMO_TABLE_DRAWER_HIDDEN": "Hidden",
@@ -189,8 +191,13 @@
     "STATS_TITLE": "Base stats",
     "STATS_CAPTION": "Each row pits the two Pokémon against each other on one stat.",
     "STATS_ARIA": "Base stat comparison between the two selected Pokémon",
+    "GENERATIONS_TITLE": "Pokémon per generation",
+    "GENERATIONS_CAPTION": "Species introduced in each generation. Recent instalments are noticeably smaller than the early ones.",
+    "GENERATIONS_ARIA": "Number of Pokémon species introduced in each generation",
     "TABLE_VIEW": "View the data as a table",
-    "COL_STAT": "Stat"
+    "COL_STAT": "Stat",
+    "COL_GENERATION": "Generation",
+    "COL_COUNT": "Species"
   },
   "PERSONAL": {
     "TITLE": "Computer Engineer - U.C.A.B",
