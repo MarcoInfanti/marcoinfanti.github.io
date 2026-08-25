@@ -77,10 +77,7 @@
     "HEADING": "Habilidades",
     "GROUP_LANGUAGES": "Lenguajes",
     "GROUP_FRAMEWORKS": "Frameworks e IDE",
-    "GROUP_DATABASES": "Bases de Datos",
-    "LEVEL_SENIOR": "Senior",
-    "LEVEL_SEMI_SENIOR": "Semi-senior",
-    "LEVEL_JUNIOR": "Junior"
+    "GROUP_DATABASES": "Bases de Datos"
   },
   "EDUCATION": {
     "HEADING": "Educación",
