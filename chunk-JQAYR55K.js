@@ -1,0 +1,1 @@
+import"./chunk-7CGTOI24.js";var o=[{path:"",loadComponent:()=>import("./chunk-EK2647P2.js").then(e=>e.Profile)},{path:"certifications",loadComponent:()=>import("./chunk-3KYCDIX2.js").then(e=>e.CertificationsAllComponent)}],t=o;export{o as PROFILE_ROUTES,t as default};
