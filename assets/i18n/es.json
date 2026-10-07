@@ -263,7 +263,7 @@
   },
   "HEADERS": {
     "HEADING": "Validador de cabeceras de seguridad HTTP",
-    "SOURCE": "Analizado por una API propia: Node.js, Express y MongoDB",
+    "SOURCE": "Analizado en el servidor por una API propia.",
     "FORM": {
       "TITLE": "Analizar una web",
       "HINT": "Pide la URL desde el servidor y puntúa de la A a la F las cabeceras que protegen a sus visitantes.",
@@ -297,7 +297,12 @@
       "CAPTCHA_LOAD": "No se pudo cargar la verificación anti-bots. Desactiva el bloqueador de contenido para esta página o recarga."
     },
     "RESULT": {
+      "HEADING": "Resultado",
+      "EMPTY": "Analiza una web o elige una del historial para ver aquí su resultado.",
       "SCANNING": "Analizando cabeceras…",
+      "TITLE": "Resultado de {{host}}",
+      "SCANNED_AT": "Analizado el {{when}}",
+      "FROM_HISTORY": "Del historial",
       "SCORE": "{{score}} / 100 puntos",
       "CACHED": "Resultado guardado de los últimos 15 minutos; no se ha vuelto a pedir la web.",
       "DETAILS": "Qué es y qué se recibió",
@@ -335,19 +340,18 @@
     },
     "HISTORY": {
       "TITLE": "Últimos análisis",
-      "CAPTION": "Los de todos los visitantes. Pulsa uno para ver su detalle.",
+      "CAPTION": "La última nota de cada web analizada. Pulsa una para ver su detalle.",
       "LOADING": "Cargando historial…",
       "EMPTY": "Aún no hay análisis. Sé el primero.",
       "ERROR": "No se pudo cargar el historial.",
       "OPEN_ARIA": "Ver el análisis de {{url}}"
     },
     "STATS": {
-      "TITLE": "Estadísticas",
-      "CAPTION": "Todos los análisis de los últimos 90 días, agregados en MongoDB.",
+      "CAPTION": "Cada web cuenta una vez, con su análisis más reciente de los últimos 90 días.",
       "LOADING": "Cargando estadísticas…",
       "EMPTY": "Las estadísticas aparecerán con el primer análisis.",
       "ERROR": "No se pudieron cargar las estadísticas.",
-      "TOTAL": "Análisis",
+      "TOTAL": "Webs analizadas",
       "AVERAGE": "Nota media",
       "GRADES_TITLE": "Webs por nota",
       "GRADES_ARIA": "Número de webs analizadas que han obtenido cada nota, de la A a la F",

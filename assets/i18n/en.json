@@ -263,7 +263,7 @@
   },
   "HEADERS": {
     "HEADING": "HTTP security headers checker",
-    "SOURCE": "Scanned by my own API: Node.js, Express and MongoDB",
+    "SOURCE": "Scanned server-side by my own API.",
     "FORM": {
       "TITLE": "Scan a website",
       "HINT": "Fetches the URL server-side and grades, from A to F, the headers that protect its visitors.",
@@ -297,7 +297,12 @@
       "CAPTCHA_LOAD": "The anti-bot check could not load. Allow it in your content blocker for this page, or reload."
     },
     "RESULT": {
+      "HEADING": "Result",
+      "EMPTY": "Scan a site or pick one from the history to see its result here.",
       "SCANNING": "Scanning headers…",
+      "TITLE": "Results for {{host}}",
+      "SCANNED_AT": "Scanned {{when}}",
+      "FROM_HISTORY": "From history",
       "SCORE": "{{score}} / 100 points",
       "CACHED": "Saved result from the last 15 minutes; the site was not fetched again.",
       "DETAILS": "What it is and what was received",
@@ -335,19 +340,18 @@
     },
     "HISTORY": {
       "TITLE": "Recent scans",
-      "CAPTION": "Every visitor's. Select one to see its details.",
+      "CAPTION": "The latest grade of every site scanned. Select one to see its details.",
       "LOADING": "Loading history…",
       "EMPTY": "No scans yet. Be the first.",
       "ERROR": "Could not load the history.",
       "OPEN_ARIA": "View the scan of {{url}}"
     },
     "STATS": {
-      "TITLE": "Statistics",
-      "CAPTION": "Every scan from the last 90 days, aggregated in MongoDB.",
+      "CAPTION": "Each site counts once, with its latest scan from the last 90 days.",
       "LOADING": "Loading statistics…",
       "EMPTY": "Statistics will appear after the first scan.",
       "ERROR": "Could not load the statistics.",
-      "TOTAL": "Scans",
+      "TOTAL": "Sites scanned",
       "AVERAGE": "Average score",
       "GRADES_TITLE": "Sites per grade",
       "GRADES_ARIA": "Number of scanned sites that got each grade, from A to F",
