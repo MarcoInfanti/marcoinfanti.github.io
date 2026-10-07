@@ -1,0 +1,1 @@
+import"./chunk-7CGTOI24.js";var o=[{path:"table",loadComponent:()=>import("./chunk-2JHIOWOG.js").then(e=>e.TableDemoComponent)},{path:"charts",loadComponent:()=>import("./chunk-G7AIOTFR.js").then(e=>e.ChartsDemoComponent)},{path:"headers",loadComponent:()=>import("./chunk-UV43FH7S.js").then(e=>e.HeadersDemoComponent)}],t=o;export{o as DEMOS_ROUTES,t as default};

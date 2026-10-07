@@ -305,6 +305,7 @@
       "FROM_HISTORY": "From history",
       "SCORE": "{{score}} / 100 points",
       "CACHED": "Saved result from the last 15 minutes; the site was not fetched again.",
+      "SCOPE_NOTE": "Grade for this exact URL: other pages of the site, or those behind a login, may send different headers.",
       "DETAILS": "What it is and what was received",
       "NO_VALUE": "The site does not send this header."
     },
@@ -323,6 +324,9 @@
       "NO_SCRIPT_POLICY": "Does not restrict scripts: it has neither script-src nor default-src, so it does not protect against XSS.",
       "WILDCARD_SOURCE": "Allows scripts from any origin (*, https:, http: or data:), an attacker’s included.",
       "OBJECT_SRC_OPEN": "Leaves plugins (<object>, <embed>) unrestricted. object-src 'none' is recommended.",
+      "FRAME_ANCESTORS_OPEN": "The CSP lets any site put it in an iframe (frame-ancestors with *, https: or http:).",
+      "FRAME_CONFLICT": "X-Frame-Options forbids it, but the CSP allows it with frame-ancestors, and browsers obey the CSP: the site can be framed.",
+      "PERMISSIVE_VALUE": "Has a value that opens it to any site.",
       "INVALID_VALUE": "Has a value browsers do not recognise.",
       "UNSAFE_VALUE": "Has a value that leaves the protection switched off.",
       "FRAME_ANCESTORS": "Covered by the CSP's frame-ancestors directive.",
@@ -350,7 +354,7 @@
       "OPEN_ARIA": "View the scan of {{url}}"
     },
     "STATS": {
-      "CAPTION": "Each site counts once, with its latest scan from the last 90 days.",
+      "CAPTION": "Only the sites scanned in this demo, each with its latest scan from the last 90 days. Not a sample of the whole web.",
       "LOADING": "Loading statistics…",
       "EMPTY": "Statistics will appear after the first scan.",
       "ERROR": "Could not load the statistics.",

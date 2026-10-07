@@ -305,6 +305,7 @@
       "FROM_HISTORY": "Del historial",
       "SCORE": "{{score}} / 100 puntos",
       "CACHED": "Resultado guardado de los últimos 15 minutos; no se ha vuelto a pedir la web.",
+      "SCOPE_NOTE": "Nota de esta URL concreta: otras páginas de la web, o las que hay tras iniciar sesión, pueden enviar cabeceras distintas.",
       "DETAILS": "Qué es y qué se recibió",
       "NO_VALUE": "La web no envía esta cabecera."
     },
@@ -323,6 +324,9 @@
       "NO_SCRIPT_POLICY": "No restringe los scripts: no tiene script-src ni default-src, así que no protege contra XSS.",
       "WILDCARD_SOURCE": "Permite scripts de cualquier origen (*, https:, http: o data:), incluidos los de un atacante.",
       "OBJECT_SRC_OPEN": "No restringe los plugins (<object>, <embed>). Se recomienda object-src 'none'.",
+      "FRAME_ANCESTORS_OPEN": "La CSP deja que cualquier web la meta en un iframe (frame-ancestors con *, https: o http:).",
+      "FRAME_CONFLICT": "X-Frame-Options lo prohíbe, pero la CSP lo permite con frame-ancestors, y los navegadores obedecen a la CSP: la web se puede meter en un iframe.",
+      "PERMISSIVE_VALUE": "Tiene un valor que lo abre a cualquier web.",
       "INVALID_VALUE": "Tiene un valor que los navegadores no reconocen.",
       "UNSAFE_VALUE": "Tiene un valor que deja la protección desactivada.",
       "FRAME_ANCESTORS": "Cubierta por la directiva frame-ancestors de la CSP.",
@@ -350,7 +354,7 @@
       "OPEN_ARIA": "Ver el análisis de {{url}}"
     },
     "STATS": {
-      "CAPTION": "Cada web cuenta una vez, con su análisis más reciente de los últimos 90 días.",
+      "CAPTION": "Solo las webs analizadas en esta demo, cada una con su último análisis de los últimos 90 días. No es una muestra de toda la web.",
       "LOADING": "Cargando estadísticas…",
       "EMPTY": "Las estadísticas aparecerán con el primer análisis.",
       "ERROR": "No se pudieron cargar las estadísticas.",
