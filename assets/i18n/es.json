@@ -199,6 +199,7 @@
     "HEADING": "Demos de componentes",
     "DEMO_TABLE": "Gestión de tablas",
     "DEMO_CHARTS": "Gráficos",
+    "DEMO_HEADERS": "Cabeceras de seguridad",
     "DEMO_TABLE_HEADING": "Demo de gestión de tablas",
     "DEMO_TABLE_SOURCE": "Datos proporcionados por PokéAPI",
     "DEMO_TABLE_EMPTY": "Sin datos que mostrar.",
@@ -259,6 +260,106 @@
     "COL_STAT": "Estadística",
     "COL_GENERATION": "Generación",
     "COL_COUNT": "Especies"
+  },
+  "HEADERS": {
+    "HEADING": "Validador de cabeceras de seguridad HTTP",
+    "SOURCE": "Analizado por una API propia: Node.js, Express y MongoDB",
+    "FORM": {
+      "TITLE": "Analizar una web",
+      "HINT": "Pide la URL desde el servidor y puntúa de la A a la F las cabeceras que protegen a sus visitantes.",
+      "LABEL": "URL a analizar",
+      "PLACEHOLDER": "ejemplo.com",
+      "SUBMIT": "Analizar",
+      "SUBMITTING": "Analizando…",
+      "CAPTCHA_WAITING": "Comprobando que no eres un bot… el análisis empezará solo.",
+      "CAPTCHA_NOTE": "Protegido por Cloudflare Turnstile."
+    },
+    "VALIDATION": {
+      "REQUIRED": "Escribe una URL.",
+      "PATTERN": "No parece una URL. Prueba con algo como ejemplo.com.",
+      "MAXLENGTH": "La URL es demasiado larga."
+    },
+    "ERRORS": {
+      "INVALID_URL": "Solo se pueden analizar URLs http o https.",
+      "BLOCKED_TARGET": "Esa dirección apunta a una red interna o a un puerto no permitido, así que no se analiza.",
+      "DNS_ERROR": "Ese dominio no existe o no resuelve.",
+      "TLS_ERROR": "El certificado HTTPS de esa web no es válido.",
+      "TIMEOUT": "La web tardó demasiado en responder.",
+      "TOO_MANY_REDIRECTS": "La web redirige demasiadas veces.",
+      "UNREACHABLE": "No se pudo conectar con esa web.",
+      "INVALID_REQUEST": "La petición no es válida.",
+      "NOT_FOUND": "Ese análisis ya no existe.",
+      "RATE_LIMITED": "Demasiados análisis seguidos. Espera un minuto y vuelve a probar.",
+      "NETWORK": "No se pudo contactar con la API. Comprueba tu conexión e inténtalo de nuevo.",
+      "UNKNOWN": "Algo ha fallado. Inténtalo de nuevo.",
+      "CAPTCHA_FAILED": "La verificación anti-bots no es válida o ha caducado. Vuelve a intentarlo.",
+      "CAPTCHA_UNAVAILABLE": "No se pudo comprobar la verificación anti-bots. Inténtalo en un momento.",
+      "CAPTCHA_LOAD": "No se pudo cargar la verificación anti-bots. Desactiva el bloqueador de contenido para esta página o recarga."
+    },
+    "RESULT": {
+      "SCANNING": "Analizando cabeceras…",
+      "SCORE": "{{score}} / 100 puntos",
+      "CACHED": "Resultado guardado de los últimos 15 minutos; no se ha vuelto a pedir la web.",
+      "DETAILS": "Qué es y qué se recibió",
+      "NO_VALUE": "La web no envía esta cabecera."
+    },
+    "STATUS": {
+      "PASS": "Correcta",
+      "WARN": "Mejorable",
+      "FAIL": "Falla"
+    },
+    "REASON": {
+      "OK": "Configurada correctamente.",
+      "MISSING": "No se envía.",
+      "NOT_HTTPS": "La web se sirve sin HTTPS, así que HSTS no tiene efecto.",
+      "SHORT_MAX_AGE": "max-age es menor de 180 días.",
+      "REPORT_ONLY": "Solo está en modo informe (Report-Only): avisa, pero no bloquea nada.",
+      "UNSAFE_DIRECTIVE": "Permite 'unsafe-inline' o 'unsafe-eval', lo que anula buena parte de la protección.",
+      "INVALID_VALUE": "Tiene un valor que los navegadores no reconocen.",
+      "UNSAFE_VALUE": "Tiene un valor que deja la protección desactivada.",
+      "FRAME_ANCESTORS": "Cubierta por la directiva frame-ancestors de la CSP.",
+      "VERSION_DISCLOSED": "Revela la versión exacta del servidor.",
+      "TECH_DISCLOSED": "Revela la tecnología con la que está hecha la web."
+    },
+    "ABOUT": {
+      "HSTS": "Obliga al navegador a usar siempre HTTPS con este dominio, también si alguien escribe http://.",
+      "CSP": "Lista de qué orígenes pueden cargar scripts, estilos e imágenes. Es la defensa principal contra XSS.",
+      "CONTENT_TYPE_OPTIONS": "Con 'nosniff', el navegador no intenta adivinar el tipo de un archivo y no ejecuta como script algo que no lo es.",
+      "FRAME_OPTIONS": "Impide que otra web meta esta en un iframe para engañar al usuario con clics (clickjacking).",
+      "REFERRER_POLICY": "Controla cuánto de la URL actual se envía a otras webs al seguir un enlace.",
+      "PERMISSIONS_POLICY": "Desactiva funciones del navegador que la web no usa, como la cámara, el micrófono o la ubicación.",
+      "COOP": "Aísla la ventana de las páginas que abre o que la abren, lo que frena ataques entre pestañas.",
+      "CORP": "Indica qué otras webs pueden cargar los recursos de esta.",
+      "SERVER_DISCLOSURE": "Un número de versión en la cabecera Server le dice a un atacante qué vulnerabilidades probar.",
+      "POWERED_BY_DISCLOSURE": "X-Powered-By anuncia el framework o el lenguaje del servidor sin aportar nada al visitante."
+    },
+    "HISTORY": {
+      "TITLE": "Últimos análisis",
+      "CAPTION": "Los de todos los visitantes. Pulsa uno para ver su detalle.",
+      "LOADING": "Cargando historial…",
+      "EMPTY": "Aún no hay análisis. Sé el primero.",
+      "ERROR": "No se pudo cargar el historial.",
+      "OPEN_ARIA": "Ver el análisis de {{url}}"
+    },
+    "STATS": {
+      "TITLE": "Estadísticas",
+      "CAPTION": "Todos los análisis de los últimos 90 días, agregados en MongoDB.",
+      "LOADING": "Cargando estadísticas…",
+      "EMPTY": "Las estadísticas aparecerán con el primer análisis.",
+      "ERROR": "No se pudieron cargar las estadísticas.",
+      "TOTAL": "Análisis",
+      "AVERAGE": "Nota media",
+      "GRADES_TITLE": "Webs por nota",
+      "GRADES_ARIA": "Número de webs analizadas que han obtenido cada nota, de la A a la F",
+      "CHECKS_TITLE": "Cabeceras bien configuradas",
+      "CHECKS_CAPTION": "Porcentaje de webs que cumplen cada comprobación.",
+      "CHECKS_ARIA": "Porcentaje de webs analizadas que cumplen cada cabecera de seguridad",
+      "TABLE_VIEW": "Ver los datos como tabla",
+      "COL_GRADE": "Nota",
+      "COL_COUNT": "Webs",
+      "COL_HEADER": "Cabecera",
+      "COL_PASS_RATE": "Cumplen"
+    }
   },
   "PERSONAL": {
     "TITLE": "Ingeniero en Informática - U.C.A.B",
